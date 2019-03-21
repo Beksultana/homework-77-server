@@ -7,6 +7,7 @@ fileDb.init();
 
 app.use(express.json());
 app.use(cors());
+app.use(express.static("public"));
 
 const port = 10000;
 
